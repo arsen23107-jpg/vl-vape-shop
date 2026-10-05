@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local Codex artifacts
+.codex/
+.agents/
