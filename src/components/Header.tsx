@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import Icon from './Icon';
-import logo from '../assets/brand/vl-logo.png';
+import logo from '../assets/optimized/brand/vl-logo.png';
 import { stores } from '../data/stores';
 import { useFavorites } from '../hooks/useFavorites';
 import { useCart } from '../hooks/useCart';

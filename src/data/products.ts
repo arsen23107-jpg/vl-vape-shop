@@ -1,10 +1,10 @@
 import type { Product } from '../types';
-import vaporessoXros6 from '../assets/products/vl/vaporesso-xros-6.png';
-import smoantPasitoIii from '../assets/products/vl/smoant-pasito-iii.png';
-import elfbarSourKing from '../assets/products/vl/elfbar-sour-king.png';
-import lostMaryViper from '../assets/products/vl/lost-mary-viper.png';
-import rickMortyAppleGrape from '../assets/products/vl/rick-morty-apple-grape.png';
-import rickMortyRaspberryJam from '../assets/products/vl/rick-morty-raspberry-jam.png';
+import vaporessoXros6 from '../assets/optimized/products/vaporesso-xros-6.jpg';
+import smoantPasitoIii from '../assets/optimized/products/smoant-pasito-iii.jpg';
+import elfbarSourKing from '../assets/optimized/products/elfbar-sour-king.jpg';
+import lostMaryViper from '../assets/optimized/products/lost-mary-viper.jpg';
+import rickMortyAppleGrape from '../assets/optimized/products/rick-morty-apple-grape.jpg';
+import rickMortyRaspberryJam from '../assets/optimized/products/rick-morty-raspberry-jam.jpg';
 
 export const products: Product[] = [
   { id: 'vaporesso-xros-6', title: 'VAPORESSO XROS 6', category: 'pod', price: 3000, availability: 'in_stock', image: vaporessoXros6, manufacturer: 'VAPORESSO', description: 'Стильная POD-система с экраном, регулировкой обдува и технологией COREX.', characteristics: { 'Аккумулятор': '1800 мА·ч', 'Объём картриджа': '3 мл', 'Мощность': 'До 30 Вт', 'Обдув': 'Регулируемый', 'Технология': 'COREX', 'Совместимые картриджи': '0.4 Ω / 0.6 Ω' } },

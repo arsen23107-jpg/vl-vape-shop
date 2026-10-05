@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../assets/brand/vl-logo.png';
+import logo from '../assets/optimized/brand/vl-logo.png';
 import { morphClass, useSoftMorph } from '../motion/softMorph';
 const KEY = 'vl:age-confirmed';
 export default function AgeGate() {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import logo from '../assets/brand/vl-logo.png';
+import logo from '../assets/optimized/brand/vl-logo.png';
 
 const SESSION_KEY = 'vl:intro-seen';
 type Phase = 'visible' | 'leaving' | 'hidden';

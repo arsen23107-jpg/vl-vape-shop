@@ -1,8 +1,8 @@
 import Icon from './Icon';
-import elfbar from '../assets/telegram/elfbar-post.png';
-import lostMary from '../assets/telegram/lost-mary-post.png';
-import rickMorty from '../assets/telegram/rick-morty-post.png';
-import pasito from '../assets/telegram/pasito-post.png';
+import elfbar from '../assets/optimized/telegram/elfbar-post.jpg';
+import lostMary from '../assets/optimized/telegram/lost-mary-post.jpg';
+import rickMorty from '../assets/optimized/telegram/rick-morty-post.jpg';
+import pasito from '../assets/optimized/telegram/pasito-post.jpg';
 
 const posts = [
   { date: '5 октября 2026', text: 'НОВИНКА 🚀\nELFBAR💓\nЦЕНА: 1800р', image: elfbar, href: 'https://t.me/Vapor_Launge/6120' },
