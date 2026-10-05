@@ -8,7 +8,6 @@ import SearchOverlay from '../components/SearchOverlay';
 import ErrorBoundary from '../components/ErrorBoundary';
 import AuthModal from '../components/AuthModal';
 import ScrollTop from '../components/ScrollTop';
-import SiteIntro from '../components/SiteIntro';
 import { MotionCoordinator, useSoftMorph } from '../motion/softMorph';
 export default function MainLayout() {
   const search = useSoftMorph();
@@ -21,7 +20,6 @@ export default function MainLayout() {
     <>
       <MotionCoordinator />
       <AgeGate />
-      <SiteIntro />
       <Header onSearch={search.open} onAuth={auth.open} />
       <main key={pathname} className="page soft-morph-page"><ErrorBoundary><Outlet /></ErrorBoundary></main>
       <Footer />
